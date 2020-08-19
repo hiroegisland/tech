@@ -3,6 +3,10 @@ Stored Procedure and Dynamic SQL for Unloading on Redshift via SQLWorkBench
 -- Objective for this SQL
 If you may fail to create Stored Procedure using SQLWorkBench by $$.
 In that case you can use below code.
+Also,whenit need to be granted file name dynamitically, useful to use stored procedure as below.
+
+Refer to here as well
+https://hobokenus.wixsite.com/techbar
 */
 CREATE OR REPLACE PROCEDURE unload_redshift_data()
 AS '
